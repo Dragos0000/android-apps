@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Snooker Point Keeper</string>
+    <string name="initialScore">0</string>
+    <string name="image">snooker table</string>
+    <string name="player">Player One</string>
+    <string name="player2">Player Two</string>
+    <string name="points">Points Won</string>
+    <string name="frames">Frames Won</string>
+    <string name="red">Red Ball</string>
+    <string name="yellow">Yellow Ball</string>
+    <string name="green">Green Ball</string>
+    <string name="brown">Brown Ball</string>
+    <string name="blue">Blue Ball</string>
+    <string name="pink">Pink Ball</string>
+    <string name="black">Black Ball</string>
+    <string name="fault">Fault</string>
+    <string name="free">Free-Ball</string>
+    <string name="roundEnd">Round end</string>
+    <string name="resetPoints">Reset points</string>
+    <string name="resetFrames">Reset frames</string>
+    <string name="resetAll">Reset All</string>
+</resources>

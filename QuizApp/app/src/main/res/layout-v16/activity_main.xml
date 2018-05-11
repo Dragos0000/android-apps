@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#81B622"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/online_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/quiz2" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bungee_shade"
+
+            android:padding="10dp"
+            android:text="This is a JavaScript beginner quiz"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+
+            android:src="@drawable/upside" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Who has invented JavaScript programming language ?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_1a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="James Gosling" />
+
+                <RadioButton
+                    android:id="@+id/radio_1b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Brendan Eich" />
+
+                <RadioButton
+                    android:id="@+id/radio_1c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Steve Jobs" />
+
+                <RadioButton
+                    android:id="@+id/radio_1d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="None of the above" />
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Inside which HTML element do we put the JavaScript?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="javascript" />
+
+                <RadioButton
+                    android:id="@+id/radio_2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="script" />
+
+                <RadioButton
+                    android:id="@+id/radio_2c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="js" />
+
+                <RadioButton
+                    android:id="@+id/radio_2d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="scripting" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. How do you write Hello World in an alert box?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_3a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="msgBox('Hello World');" />
+
+                <RadioButton
+                    android:id="@+id/radio_3b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="msg('Hello World');" />
+
+                <RadioButton
+                    android:id="@+id/radio_3c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="alert('Hello World');" />
+
+                <RadioButton
+                    android:id="@+id/radio_3d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="alertBox('Hello World');" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. The external JavaScript file must contain the script tag."
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_4a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="True" />
+
+                <RadioButton
+                    android:id="@+id/radio_4b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="False" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. JavaScript is an ___ scripting programming language."
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_5a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Even" />
+
+                <RadioButton
+                    android:id="@+id/radio_5b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Logic" />
+
+                <RadioButton
+                    android:id="@+id/radio_5c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Object" />
+
+                <RadioButton
+                    android:id="@+id/radio_5d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="OOP" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. How can you define a variable?"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkbox_6a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="var x =" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_6b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="let x =" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_6c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="const x =" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_6d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="def x =" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_6e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="int x = " />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Which of the following are keywords in java?"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkbox_7a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="object" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_7b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="break" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_7c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="this" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_7d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="variable" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_7e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="return" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_view_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="8."
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/blank_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/text_view_8"
+                    android:inputType="text"
+                    android:maxLength="10"
+                    android:textColor="#AD1457" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@id/blank_8"
+                    android:text=" is a very good language to write web apps"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_view_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="9."
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/blank_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/text_view_9"
+                    android:inputType="text"
+                    android:maxLength="7"
+                    android:textColor="#AD1457" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@id/blank_9"
+                    android:text=" error is a grammatical-error in using the programming language."
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_view_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="10."
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/blank_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/text_view_10"
+                    android:inputType="text"
+                    android:maxLength="8"
+                    android:textColor="#AD1457" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@id/blank_10"
+                    android:text=" is a note written to a human reader of a program."
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:onClick="submitQuiz"
+                    android:text="submit quiz" />
+
+                <Button
+                    android:id="@+id/reset_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:onClick="resetQuiz"
+                    android:text="reset" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

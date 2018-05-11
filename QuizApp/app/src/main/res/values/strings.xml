@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">JavaScript Quiz</string>
+    <string name="image1">javaScript image</string>
+    <string name="image2">finger pointing down</string>
+    <string name="title">This is a JavaScript beginner quiz</string>
+
+    <!-- question 1 content and answers text -->
+    <string name="q1">1. Who has invented JavaScript programming language ?</string>
+    <string name="q1A1">James Gosling</string>
+    <string name="q1A2">Brendan Eich</string>
+    <string name="q1A3">Steve Jobs</string>
+    <string name="q1A4">None of the above</string>
+
+    <!-- question 2 content and answers text -->
+    <string name="q2">2. Inside which HTML element do we put the JavaScript?</string>
+    <string name="q2A1">javascript</string>
+    <string name="q2A2">script</string>
+    <string name="q2A3">js</string>
+    <string name="q2A4">scripting</string>
+
+    <!-- question 3 content and answers text -->
+    <string name="q3">3. How do you write Hello World in an alert box?</string>
+    <string name="q3A1">msgBox('Hello World');</string>
+    <string name="q3A2">msg('Hello World');</string>
+    <string name="q3A3">alert('Hello World');</string>
+    <string name="q3A4">alertBox('Hello World');</string>
+
+    <!-- question 4 content and answers text -->
+    <string name="q4">1. 4. The external JavaScript file must contain the script tag.</string>
+    <string name="q4A1">True</string>
+    <string name="q4A2">False</string>
+
+    <!-- question 5 content and answers text -->
+    <string name="q5">5. JavaScript is an ___ scripting programming language.</string>
+    <string name="q5A1">Even</string>
+    <string name="q5A2">Logic</string>
+    <string name="q5A3">Object</string>
+    <string name="q5A4">OOP</string>
+
+    <!-- question 6 content and answers text -->
+    <string name="q6">6. How can you define a variable?</string>
+    <string name="q6A1">var x =</string>
+    <string name="q6A2">let x =</string>
+    <string name="q6A3">const x =</string>
+    <string name="q6A4">def x =</string>
+    <string name="q6A5">int x =</string>
+
+    <!-- question 7 content and answers text -->
+    <string name="q7">7. Which of the following are keywords in java?</string>
+    <string name="q7A1">object</string>
+    <string name="q7A2">break</string>
+    <string name="q7A3">this</string>
+    <string name="q7A4">variable</string>
+    <string name="q7A5">return</string>
+
+    <!-- question 8 content and answers text -->
+    <string name="q8part1">8. </string>
+    <string name="q8part2"> is a very good language to write web apps</string>
+
+    <!-- question 9 content and answers text -->
+    <string name="q9part1">9. </string>
+    <string name="q9part2"> error is a grammatical-error in the programming language.</string>
+
+    <!-- question 10 content and answers text -->
+    <string name="q10part1">10. </string>
+    <string name="q10part2"> is a note written by the developer in the code.</string>
+
+    <!-- buttons text -->
+    <string name="submit">Submit</string>
+    <string name="reset">Play again</string>
+
+</resources>
